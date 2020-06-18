@@ -22,33 +22,56 @@ nav .btn_1 {
 /* Footer start */
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {
   text-decoration: none !important;
 }
 
+.footer {
+  font-family: 'Lato', sans-serif;
+}
+
 .footer a,
 .footer p {
   color: #fff;
-  line-height: 2;
-  font-size: 18px;
+  line-height: 1.5;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  color: #333;
+}
+
+.footer h4 {
+  margin-bottom: 1rem;
 }
 
 .footer_padding {
   background-color: #ff6633;
-  padding: 80px 15px;
+  padding: 50px 0 10px;
 }
 
-.footer li {
-  margin-left: -38px !important;
+.footer .social-icons img {
+  width: 50px;
 }
 
-/* Small screens */
-@media (max-width: 768px) {
-  .footer p {
-    text-align: left;
-    margin-top: -25px;
+.footer-list li {
+  margin: 1rem 0;
+}
+
+.footer-text {
+  width: 80%;
+}
+
+@media (max-width: 425px) {
+  .footer h4 {
+    margin: 0;
+    margin-bottom: 0.3rem !important;
+  }
+  .footer-list li {
+    margin: 0.5rem 0;
   }
 }
-/* Footer end */
