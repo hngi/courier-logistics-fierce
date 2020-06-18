@@ -1,0 +1,37 @@
+.orange{
+	color:#ff6633!important;
+}
+
+.btn_orange{
+	border: 1px solid #ff6633;
+  border-radius: 3px;
+  padding: 8px 30px;
+  line-height: 1;
+  color: #fff;
+  background-color: #ff6633; 
+  font-size: 18px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ff6633;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 2px solid #ff6633;
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+  .track{
+  display: block;
+  width: 100%;
+	
+}
+}
