@@ -145,6 +145,22 @@ body {
   outline: 0;
 }
 
+@media (max-width: 1024px) {
+  .navbar-nav > li {
+    padding-left: 10px;
+    padding-right: 20px;
+    margin: 0 5px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  nav .btn_1 {
+    padding: 10px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar-nav > li {
     padding-left: 0;
@@ -158,6 +174,10 @@ body {
 
   nav .btn_1 {
     padding: 10px;
+  }
+
+  .services-items .row {
+    justify-content: center;
   }
 
   .partner-item img {
@@ -188,6 +208,10 @@ body {
   .services-arc {
     width: 150px;
     top: 15%;
+  }
+
+  .services-items .row {
+    justify-content: center;
   }
 
   .partner-item img {
