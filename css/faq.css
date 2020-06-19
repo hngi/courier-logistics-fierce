@@ -47,17 +47,11 @@ body {
 
 /* Overriding bootstrap styles */
 #delivery {
-    margin-top: 4rem;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 48px;
 }
 
 #track {
-    margin-top: 1.2rem;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 48px;
 }
 
 .container .questions-track {
@@ -88,6 +82,11 @@ body {
 /* Style that changes the dropdown icon */
 .open > img {
     transform: rotate(90deg);
+}
+
+/* Style to display the answer */
+.answers {
+
 }
 
 
@@ -358,3 +357,18 @@ body {
     height: 26px !important;
 }
     }
+
+@media all and (min-width: 1200px) {
+    /* Overriding bootstrap styles */
+#delivery {
+    margin-top: 4rem;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+#track {
+    margin-top: 1.2rem;
+    font-size: 40px;
+    line-height: 48px;
+}
+}
