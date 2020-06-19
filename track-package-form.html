@@ -20,41 +20,54 @@
     />
   </head>
   <body>
+    <picture class="top_left">
+        <source media="(min-width:992px)" srcset="img/image.png">
+        <source media="(min-width:768px)" srcset="img/eli_mobile.png">
+      <img src="img/eli_mobile.png" alt="Eclipse" style="width:auto;">
+    </picture>
+    <picture class="delivery">
+      <!-- <source media="(min-width:px)" srcset="img/eli_mobile.png"> -->
+      <source media="(min-width:992px)" srcset="img/delivery.png">
+      <source media="(min-width:768px)" srcset="img/delivery_smaller.png">
+      <img src="img/delivery_smaller.png" alt="Delivery" style="width:auto;">
+        <!-- <source class="d-none d-xl-block img-fluid" src=""> -->
+    </picture>
     <!-- Header start -->
     <header>
       <div class="container mt-4 mb-4">
         <nav class="navbar navbar-expand-md">
-          <a class="navbar-brand" href="index.html">
-            <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
-          </a>
-          <button
+           <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
           >
-            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            <span class="navbar-toggler-icon text_orange"><i class="fa fa-bars "></i></span>
           </button>
-
+       
+            <a class="navbar-brand dis_inline" href="index.html">
+              <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
+            </a>
+          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link " href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link " href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link services" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Track</a>
+                <a class="nav-link text_white" href="#">Track</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sign In</a>
+                <a class="nav-link text_white" href="#">Sign In</a>
               </li>
               <li class="nav-item">
-                <a class="btn_1" href="#">Sign Up</a>
+                <a class="btn_signup text_white" href="#">Sign Up</a>
               </li>
             </ul>
           </div>
@@ -79,10 +92,7 @@
                 </div>
             </form>
             <div class=" mt-5">
-                <div class="d-flex justify-content-center">  
-                   <img class=" d-sm-none" src="img/icon_mobile.png ">
-               </div>
-                    <img class="d-none d-sm-block " src="img/icon.png">
+                    <img class="img-fluid " src="img/icon.png">
             </div>
         </section>
        </div> 
