@@ -9,6 +9,7 @@
   /* adding style to the page  */
   body {
     height: 100vh;
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -18,7 +19,7 @@
     font-weight: 700;
 }
 .mr {
-    transform: translate(10%,-4%);
+    transform: translate(10%,-11%);
     z-index: -1;
 }
 .absolute {
@@ -37,14 +38,17 @@
 .media {
     display: none!important;
 }
+/* smmall screen responsivness  */
 @media (max-width:768px) {
     .media {
         display: block!important;
+        transform: translateY(-80%);
     }
     .none {
         display: none;
     }
     .sec1{
-       height: 210vh!important;
+       height: 150vh!important;
     }
+    
 }

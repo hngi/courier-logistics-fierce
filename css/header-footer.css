@@ -17,6 +17,10 @@ nav .btn_1 {
   color: black;
   font-size: 18px;
 }
+.fw {
+  font-weight: 500;
+  color: #ff6633!important;
+}
 /* Header end */
 
 /* Footer start */
@@ -41,14 +45,28 @@ a {
 }
 
 .footer li {
-  margin-left: -38px !important;
+  /* margin-left: -38px !important; */
 }
-
+.fw:hover,.fw-2:hover {
+  color: rgba(255, 104, 53, 0.651)!important;
+}
 /* Small screens */
 @media (max-width: 768px) {
   .footer p {
-    text-align: left;
+    text-align: right;
     margin-top: -25px;
+  }
+  .copy {
+    text-align: left!important;
+  }
+  .fw-2 {
+    font-weight: 500;
+    color: #ff6633!important;
+  }
+  .fw-3 {
+    font-weight: 500;
+    color: #ff6633!important;
+    border: 1px solid #ff6633!important;
   }
 }
 /* Footer end */
