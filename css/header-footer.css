@@ -17,6 +17,10 @@ nav .btn_1 {
   color: black;
   font-size: 18px;
 }
+.fw {
+  font-weight: 500;
+  color: #ff6633!important;
+}
 /* Header end */
 
 /* Footer start */
@@ -58,6 +62,7 @@ a {
   width: 50px;
 }
 
+
 .footer-list li {
   margin: 1rem 0;
 }
@@ -73,5 +78,17 @@ a {
   }
   .footer-list li {
     margin: 0.5rem 0;
+  }
+  .copy {
+    text-align: left!important;
+  }
+  .fw-2 {
+    font-weight: 500;
+    color: #ff6633!important;
+  }
+  .fw-3 {
+    font-weight: 500;
+    color: #ff6633!important;
+    border: 1px solid #ff6633!important;
   }
 }
