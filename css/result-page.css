@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+ /* remove default style  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* adding style to the page  */
+  body {
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+.h1-1 {
+    font-family: 'Lato', sans-serif;
+    color: #FC4E17;
+    font-weight: 700;
+}
+.mr {
+    transform: translate(10%,-11%);
+    z-index: -1;
+}
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left:24%;
+}
+.relative {
+    position: relative;
+}
+ /* adding font family to text */
+.lato {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.media {
+    display: none!important;
+}
+/* smmall screen responsivness  */
+@media (max-width:768px) {
+    .media {
+        display: block!important;
+        transform: translateY(-80%);
+    }
+    .none {
+        display: none;
+    }
+    .sec1{
+       height: 150vh!important;
+    }
+    
+}
