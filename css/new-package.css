@@ -19,7 +19,7 @@ html {
   
 
   /* Banner-Style */
-  .banner {
+  .banner-dispatch {
     background: url('../img/banner.jpeg');
     background-size: cover;
     background-position: center center;

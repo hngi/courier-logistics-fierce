@@ -21,49 +21,66 @@
     <link rel="stylesheet" href="./css/header-footer.css" />
     <!-- page css -->
     <link rel="stylesheet" href="./css/faq.css">
+    <link rel="stylesheet" href="./css/services-page.css">
+    <style>
+      .nav-link {
+        color: black !important;
+      }
+
+      .btn_1:hover {
+        color: #fff !important;
+        background-color: #FF5C28 !important;
+      }
+    </style>
 </head>
 <body>
     <!-- Header start -->
     <header>
-        <div class="container mt-4 mb-4">
-          <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="index.html">
-              <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-            >
-              <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
-            </button>
-  
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Track</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sign In</a>
-                </li>
-                <li class="nav-item">
-                  <a class="btn_1" href="#">Sign Up</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </header>
+      <div class="container mt-4 mb-4">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./img/logo-pink.svg"
+              class="img-fluid mr-2"
+              alt="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon text-white"
+              ><i class="fa fa-bars"></i
+            ></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dispatch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sign-in.html">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn_1 text-black" href="./sign-in.html">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
       <!-- Header end -->
       <!-- Faq page starts here -->
       <div class="container">
@@ -198,40 +215,50 @@
     </div>
 
       <!-- Footer start -->
-    <footer class="footer footer_padding">
+      <footer class="footer footer_padding">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 col-sm-4">
+            <div class="col-md-6">
               <img
                 src="./img/logo-white.svg"
                 class="img-fluid mt-2 mb-4"
                 alt="logo"
               />
+              <p class="footer-text">
+                Logistix is a representative logistic operator, providing full
+                range of delivery services for individual, cooperate and
+                industrial company. We are currently available in 26 African
+                countries, giving the best of the best services through our well
+                trained staffs.
+              </p>
               <ul class="social-icons d-flex mt-4">
                 <li>
-                  <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                  <a href="#"><img src="./img/social/facebook.svg" alt="" /></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-instagram fa-2x pl-5"></i></a>
+                  <a href="#"><img src="./img/social/linkedin.svg" alt="" /></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-facebook fa-2x pl-5"></i></a>
+                  <a href="#"><img src="./img/social/insta.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/social/twiter.svg" alt="" /></a>
                 </li>
               </ul>
             </div>
   
-            <div class="col-md-3 col-sm-4">
+            <div class="col-md-2 col-sm-4">
               <h4 class="text-white mb-4">About</h4>
-              <ul>
+              <ul class="footer-list">
                 <li><a href="#">Meet Our Team</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Career</a></li>
               </ul>
             </div>
   
-            <div class="col-md-3 col-sm-4">
+            <div class="col-md-2 col-sm-4">
               <h4 class="text-white mb-4">Services</h4>
-              <ul>
+              <ul class="footer-list">
                 <li><a href="#">House Delivery</a></li>
                 <li><a href="#">Dispatch Ride</a></li>
                 <li><a href="#">Product Delivery</a></li>
@@ -239,9 +266,9 @@
               </ul>
             </div>
   
-            <div class="col-md-3 col-sm-4">
+            <div class="col-md-2 col-sm-4">
               <h4 class="text-white mb-4">Quick links</h4>
-              <ul>
+              <ul class="footer-list">
                 <li><a href="#">Request A Quote</a></li>
                 <li><a href="#">Global Agents</a></li>
                 <li><a href="#">Help & FAQ</a></li>
@@ -249,7 +276,7 @@
             </div>
   
             <div class="col-sm-12 mt-4 text-white text-center">
-              <p>Copyright &copy; 2020</p>
+              <p>Copyright &copy; 2020 All rights reserved.</p>
             </div>
           </div>
         </div>
