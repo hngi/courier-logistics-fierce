@@ -52,7 +52,8 @@ nav .btn_1 {
   border-radius: 5px;
   padding: 10px 40px;
   line-height: 3;
-  color: black !important;
+  z-index: -100px !important;
+  color: #fff !important;
   font-size: 18px;
 }
 /* Header end */
@@ -68,6 +69,7 @@ nav .btn_1 {
   color: var(--mainColor);
   font-weight: bold;
   font-size: 48px;
+  line-height: 1.2;
 }
 
 .hero .logo {
@@ -75,13 +77,31 @@ nav .btn_1 {
   margin-top: 100px;
 }
 
+.hero .van {
+  margin-top: 80px;
+  margin-left: 90px;
+}
+
 .rounded_bg_curve {
-  background-color: rgba(255, 92, 40, 0.5);
-  border-radius: 33% 0% 0% 67% / 100% 45% 1% 35%;
-  padding: 250px 200px 20px 300px;
+  background: url('../img/Rectangle\ 75.png');
+  position: relative;
+  top: -240px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  /* border: 3px solid #ff8660; */
+  /* background-color: rgba(255, 92, 40, 0.5); */
+
+  /* padding: 250px 200px 20px 300px;
   margin-top: -240px;
   border-left: 20px solid #ff8660;
-  border-bottom: 15px solid #ff8660;
+  border-bottom: 15px solid #ff8660; * */
+
+  /* trqck curvr */
+  /* position: relative;
+  top: -250px;
+  padding: 200px;
+  padding-top: 200px; */
 }
 
 @media (max-width: 992px) {
@@ -97,14 +117,18 @@ nav .btn_1 {
   .hero .margin_top_mobile {
     margin-top: -80px;
   }
+  .hero {
+    margin-bottom: 280px !important;
+  }
 }
 /* Hero end */
 
 /* About Us start */
 
 .about_padding {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  /* padding-top: 80px; */
+  margin-top: -300px;
+  /* padding-bottom: 50px; */
   background-color: var(--mainColor);
   box-shadow: 0px 2px 10px rgba(177, 31, 31, 0.5);
 }
@@ -114,12 +138,9 @@ nav .btn_1 {
   background-color: var(--whiteColor);
   box-shadow: 0px 4px 4px rgba(177, 31, 31, 0.25);
   border-radius: 5px;
+  color: #fc4e17 !important;
   padding: 15px 40px;
   font-size: 18px;
-}
-
-.btn-big a {
-  color: var(--mainColor) !important;
 }
 
 .about .details {
@@ -133,6 +154,24 @@ nav .btn_1 {
     margin-top: -80px !important;
     padding-bottom: 100px;
     text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .about .mobile_margin {
+    margin-top: -80px !important;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .about .btn-big {
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 1129px) {
+  .about .btn-big {
+    padding: 15px !important;
+    display: block !important;
   }
 }
 
@@ -338,7 +377,6 @@ nav .btn_1 {
     display: none !important;
   }
 }
-
 /* Service delivery end */
 
 /* Testimonials start */
@@ -363,8 +401,6 @@ nav .btn_1 {
 /* Send Packages start  */
 .send_packages_padding {
   background-color: var(--mainColor);
-  padding-top: 100px;
-  padding-bottom: 100px;
   padding-left: 50px;
 }
 
@@ -393,6 +429,56 @@ nav .btn_1 {
 
 .packages p {
   font-size: 20px !important;
+}
+
+.packages .btn-primary {
+  position: relative;
+  right: 120px !important;
+}
+
+@media (max-width: 971px) {
+  .packages .btn-primary {
+    display: block !important;
+    position: relative;
+    top: 77px;
+    right: 200px;
+    padding: 10px 10px !important;
+  }
+  .packages {
+    padding-bottom: 210px !important;
+  }
+}
+
+@media (max-width: 855px) {
+  .packages .btn-primary {
+    display: block !important;
+    position: relative;
+    top: 77px;
+    right: 200px;
+    padding: 10px !important;
+  }
+  .packages {
+    padding-bottom: 210px !important;
+  }
+}
+
+@media (max-width: 772px) {
+  .packages .btn-primary {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1090px) {
+  .packages .btn-primary {
+    display: block !important;
+    position: relative;
+    top: 77px;
+    right: 200px;
+    display: block !important;
+  }
+  .packages {
+    padding-bottom: 90px !important;
+  }
 }
 
 /* Send Packages end  */
