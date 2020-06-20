@@ -22,5 +22,5 @@ for(qtn; qtn < questions; qtn++){
 //add the open class to the specific question that was clicked
 function openIcon(e) {
     const clickedQuestion = e.currentTarget
-    clickedQuestion.classList.toggle('open') 
+    clickedQuestion.classList.toggle('open')
 }

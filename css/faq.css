@@ -38,7 +38,7 @@ body {
 
 /* Questions */
 .small-header {
-    height: 44px;
+    height: 54px;
     color: #000000;
     font-size: 40px !important;
     line-height: 48px !important;
@@ -74,6 +74,15 @@ body {
     border-radius: 15px;
     cursor: pointer;
 }
+/* Style to display the answer */
+.open .answers-section {
+    display: block;
+}
+
+/* Hides the answers on page load */
+.answers-section {
+    display: none;
+}
 
 #last-question {
     margin-bottom: 5rem;
@@ -82,11 +91,7 @@ body {
 /* Style that changes the dropdown icon */
 .open > img {
     transform: rotate(90deg);
-}
-
-/* Style to display the answer */
-.answers {
-
+    top: 19% !important;
 }
 
 
@@ -346,8 +351,8 @@ body {
 .container .questions-track {
     position: relative;
     width: 890px !important;
-    font-size: 24px !important;
-    line-height: 30px !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
 }
 
 .question1 img {
