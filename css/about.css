@@ -167,6 +167,19 @@ header .navbar-nav > li{
         font-size: .5em;
     }
 }
+@media screen and (max-width:576px){
+    #hero .hero-mobile{
+        width: 80%;
+        margin: 40px auto 0;
+    }
+    #hero .txt-hero{
+        text-align: justify;
+        font-size: 1em;
+    }
+    .menu-bar{
+        color: #FF5C28;
+    }
+}
 @media screen and (max-width:560px){
     #care-taker .card{
         width: 32rem;
