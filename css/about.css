@@ -111,7 +111,7 @@ header .navbar-nav > li{
         ;
     border-radius: 5px;
 }
- /****** media queries *******/
+ /****** media queries for different breakpoints*******/
 @media screen and (max-width:1000px){
     #service .vector-icons{
         width: 70px;
