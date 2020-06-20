@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Track Package Form</title>
-    <link rel="stylesheet" href="./css/header-footer.css" />
     <link rel="stylesheet" href="./css/track-package-form.css" />
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="./css/services-page.css">
+    <link rel="stylesheet" href="./css/track-package-nav.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -21,53 +23,58 @@
   </head>
   <body>
     <picture class="top_left">
-        <source media="(min-width:992px)" srcset="img/image.png">
+        <source media="(min-width:993px)" srcset="img/image.png">
         <source media="(min-width:768px)" srcset="img/eli_mobile.png">
       <img src="img/eli_mobile.png" alt="Eclipse" style="width:auto;">
     </picture>
     <picture class="delivery">
       <!-- <source media="(min-width:px)" srcset="img/eli_mobile.png"> -->
-      <source media="(min-width:992px)" srcset="img/delivery.png">
+      <source media="(min-width:993px)" srcset="img/delivery.png">
       <source media="(min-width:768px)" srcset="img/delivery_smaller.png">
       <img src="img/delivery_smaller.png" alt="Delivery" style="width:auto;">
         <!-- <source class="d-none d-xl-block img-fluid" src=""> -->
     </picture>
     <!-- Header start -->
     <header>
-      <div class="container mt-4 mb-4">
+      <div class="container pt-5 mb-4">
         <nav class="navbar navbar-expand-md">
-           <button
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./img/logo-pink.svg"
+              class="img-fluid mr-2"
+              alt="logo"
+            />
+          </a>
+          <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
           >
-            <span class="navbar-toggler-icon text_orange"><i class="fa fa-bars "></i></span>
+            <span class="navbar-toggler-icon text-black"
+              ><i class="fa fa-bars"></i
+            ></span>
           </button>
-       
-            <a class="navbar-brand dis_inline" href="index.html">
-              <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
-            </a>
-          
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link " href="#">Home</a>
+              <li class="nav-item orange">
+                <a class="nav-link" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">About Us</a>
+                <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link services" href="#">Services</a>
+                <a class="nav-link" href="./services.html">Services</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text_white" href="#">Track</a>
+              <li class="nav-item active">
+                <a class="nav-link white" href="#">Track</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text_white" href="#">Sign In</a>
+              <li class="nav-item white">
+                <a class="nav-link" href="./sign-in.html">Sign In</a>
               </li>
-              <li class="nav-item">
-                <a class="btn_signup text_white" href="#">Sign Up</a>
+              <li class="nav-item white" >
+                <a class="btn_1 text-white" id="sign-up" href="./sign-in.html">Sign Up</a>
               </li>
             </ul>
           </div>
@@ -105,37 +112,47 @@
     <footer class="footer footer_padding">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-6">
             <img
               src="./img/logo-white.svg"
               class="img-fluid mt-2 mb-4"
               alt="logo"
             />
+            <p class="footer-text">
+              Logistix is a representative logistic operator, providing full
+              range of delivery services for individual, cooperate and
+              industrial company. We are currently available in 26 African
+              countries, giving the best of the best services through our well
+              trained staffs.
+            </p>
             <ul class="social-icons d-flex mt-4">
               <li>
-                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                <a href="#"><img src="./img/social/facebook.svg" alt="" /></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-instagram fa-2x pl-5"></i></a>
+                <a href="#"><img src="./img/social/linkedin.svg" alt="" /></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-facebook fa-2x pl-5"></i></a>
+                <a href="#"><img src="./img/social/insta.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/social/twiter.svg" alt="" /></a>
               </li>
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">About</h4>
-            <ul>
+            <ul class="footer-list">
               <li><a href="#">Meet Our Team</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Career</a></li>
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">Services</h4>
-            <ul>
+            <ul class="footer-list">
               <li><a href="#">House Delivery</a></li>
               <li><a href="#">Dispatch Ride</a></li>
               <li><a href="#">Product Delivery</a></li>
@@ -143,9 +160,9 @@
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">Quick links</h4>
-            <ul>
+            <ul class="footer-list">
               <li><a href="#">Request A Quote</a></li>
               <li><a href="#">Global Agents</a></li>
               <li><a href="#">Help & FAQ</a></li>
@@ -153,7 +170,7 @@
           </div>
 
           <div class="col-sm-12 mt-4 text-white text-center">
-            <p>Copyright &copy; 2020</p>
+            <p>Copyright &copy; 2020 All rights reserved.</p>
           </div>
         </div>
       </div>

@@ -20,12 +20,12 @@
   border: 1px solid none;
   padding: 10px 40px;
 }
-.nav-link:hover  {
+/* .nav-link:hover  {
   color: #fff;
  background-color: #ff6633;
  border-radius: 3px;
   
-}
+} */
 
 .navbar-nav > li {
   padding-left: 25px;
@@ -49,11 +49,13 @@
   color: #fff;
   font-size: 18px;
 }
-.btn_signup:hover{
+/* .btn_signup:hover{
   color: #ff6633;
   background-color: #fff; 
-}
+} */
 /* Header end */
+
+
 
 .orange{
 	color:#ff6633!important;
@@ -126,14 +128,14 @@ input[type=text]:focus {
   }
   .top_left{
    position: absolute;
-    z-index: -2;
+    z-index: -200;
     top: 5vh;
     right:0vh;
 
   }
   .delivery{
    position: absolute;
-    z-index: -1;
+    z-index: -100;
     top: 10vh;
     right:0; 
 
