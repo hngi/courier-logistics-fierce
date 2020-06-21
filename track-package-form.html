@@ -6,8 +6,8 @@
     <title>Track Package Form</title>
     <link rel="stylesheet" href="./css/track-package-form.css" />
     <link rel="stylesheet" href="./css/header-footer.css" />
-    <link rel="stylesheet" href="./css/services-page.css">
     <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/services-page.css">
     <link rel="stylesheet" href="./css/resolve-nav.css">
     <link
       rel="stylesheet"
@@ -39,7 +39,7 @@
     <header>
       <div class="container-fluid my-4 px-o px-xl-5 mt-4 mb-4">
         <nav class="navbar navbar-expand-md">
-          <a class="navbar-brand pl-3" href="index.html">
+          <a class="navbar-brand pl-md-3" href="index.html">
             <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
           </a>
           <button
@@ -54,22 +54,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto pr-lg-3">
               <li class="nav-item  pl-2">
-                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link nav-link1" href="./index.html">Home</a>
               </li>
               <li class="nav-item  pl-2">
-                <a class="nav-link" href="./about.html">About Us</a>
+                <a class="nav-link nav-link1" href="./about.html">About Us</a>
               </li>
               <li class="nav-item  pl-2">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link nav-link1" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item dropdown pl-2">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Package
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item p-3" href="./new-package.html">Dispatch New Package</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item p-3" href="#" id="nav-active">Track Package</a>
+                </div>
               </li>
               <li class="nav-item  pl-2">
-                <a class="nav-link" href="./new-package.html">Dispatch</a>
+                <a class="nav-link nav-link1" href="./contact.html">Contact</a>
               </li>
               <li class="nav-item  pl-2">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-              <li class="nav-item  pl-2">
-                <a class="btn_1" href="#" style="color: black; border-color: black;">Sign Up</a>
+                <a class="btn_1" href="./sign-in.html" style="color: white; border-color: black;">Sign Up</a>
               </li>
             </ul>
           </div>
@@ -79,18 +86,18 @@
     <!-- Header end -->
 
     <!-- content start -->
-    <div class="container-fluid mt-5 pl-5" style="margin-top: 100px !important;"> 
-      <div class=" row pl-4"> 
+    <div class="container-fluid mt-5 pl-md-5" style="margin-top: 100px !important;"> 
+      <div class=" row pl-md-4"> 
         <section class="col-lg-6 mb-3 mt-md-5">
           <h2 class="orange d-none d-md-block">Track your Order</h2>
           <h2 class="orange d-md-none">Track your</h2>
           <h2 class="orange d-md-none"> Order</h2>
-            <form>  
+            <form class="pr-4">  
                 <div class="">
-                  <input class="" type="text" name="" placeholder="TrackNumber">
+                  <input class="" type="text" name="" placeholder="Track Number">
                 </div> 
                 <div class="mt-2">
-                  <input class="btn_orange track" type="button" name="" value="Track">
+                  <a href="./result-page.html"><input class="btn_orange track" type="button" name="" value="Track"></a>
                 </div>
             </form>
             <div class=" mt-5">

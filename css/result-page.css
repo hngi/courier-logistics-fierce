@@ -8,7 +8,6 @@
   }
   /* adding style to the page  */
   body {
-    height: 100vh;
     width: 100%;
     overflow-x: hidden;
   }
@@ -18,37 +17,38 @@
     color: #FC4E17;
     font-weight: 700;
 }
-.mr {
-    transform: translate(10%,-11%);
-    z-index: -1;
+
+.main {
+  margin-top: 170px;
+  height: 700px; 
 }
-.absolute {
-    position: absolute;
-    bottom: 0;
-    left:24%;
-}
-.relative {
-    position: relative;
-}
+
+
+
  /* adding font family to text */
 .lato {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
-.media {
-    display: none!important;
+
+.range {
+  position: absolute; 
+  right: 0; 
+  top: 20px; 
+  height: 20px; 
+  max-width: 100%;
 }
-/* smmall screen responsivness  */
-@media (max-width:768px) {
-    .media {
-        display: block!important;
-        transform: translateY(-80%);
-    }
-    .none {
-        display: none;
-    }
-    .sec1{
-       height: 150vh!important;
-    }
-    
+
+.side-img {
+  position: relative; 
+  right: -16px; 
+  top: -190px; 
+  z-index: -999; 
+  overflow: hidden;
+}
+
+@media (max-width: 994px) {
+  .side-img {
+    display: none;
+  }
 }

@@ -141,6 +141,10 @@ input[type=text]:focus {
 
   }
 
+  picture {
+    display: none !important;
+  }
+
 }
 
 /* Small screens */

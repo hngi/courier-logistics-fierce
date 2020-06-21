@@ -105,8 +105,8 @@ body {
 }
 
 .service-link {
-  color: #fc4e17;
-  border-bottom: 1px solid #fc4e17;
+  color: #fc4e17 !important;
+  border-bottom: 1px solid #fc4e17 !important;
 }
 
 .partners {
