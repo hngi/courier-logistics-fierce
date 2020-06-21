@@ -7,12 +7,12 @@ body {
 }
 
 .container {
-    margin-top: 106px;
+    margin-top: 206px;
 }
 
 /* Page header */
 .page-header h1 {
-    font-size: 44px !important;
+    font-size: 40px !important;
     line-height: 40px !important;
     color: #FF5C28;
 }
@@ -23,20 +23,26 @@ body {
     margin-top: 3rem;
 }
 
+.form-inline {
+  position: relative;
+  display: inline-block;
+}
+
 .page-header input {
-    margin-top: 12px;
-    height: 60px;
+    margin-top: 20px;
+    height: 50px;
     border-radius: 15px;
-    width: 685px !important;
-    font-size: 22px !important;
-    line-height: 40px !important;
+    width: 455px !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
     color: rgba(0, 0, 0, 0.3);
     background: rgba(255, 239, 233, 0.5);
 }
 
 .page-header .fa-search {
     position: absolute;
-    left: 69.6%;
+    right: 4.6%;
+    bottom: 15px;
     font-size: 26px;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -53,21 +59,21 @@ body {
 /* Overriding bootstrap styles */
 #delivery {
     font-weight: 900;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 37px;
     margin-top: 62px;
 }
 
 #track {
     font-weight: 900;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 37px;
     margin-top: 67px;
 }
 
 .container .questions-track {
     position: relative;
-    width: 1089px;
+    width: 800px;
     font-size: 20px !important;
     line-height: 41px !important;
 }
@@ -111,7 +117,7 @@ body {
 @media all and (max-width: 479px) {
 
 .container {
-    margin-top: 80px;
+    margin-top: 130px;
 }
 /* Page header */
 .page-header h1 {
@@ -275,14 +281,14 @@ body {
     
     .page-header input {
         height: 48px;
-        width: 505px !important;
+        width: 345px !important;
         font-size: 20px !important;
         line-height: 24px !important;
     }
     
     .page-header .fa-search {
         position: absolute;
-        left: 80.6%;
+        right: 4%;
         font-size: 22px;
     }
     
@@ -298,7 +304,7 @@ body {
         font-weight: bold;
         font-size: 28px;
         line-height: 28px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
     
     #track {
@@ -306,9 +312,11 @@ body {
         margin-top: 1.2rem;
         font-size: 28px;
         line-height: 28px;
+        margin-top: 50px;
     }
     
     .container .questions-track {
+        margin-top: 20px;
         position: relative;
         width: 720px !important;
         font-size: 18px !important;
@@ -346,16 +354,16 @@ body {
     position: relative;
 }
 
-.page-header input {
+/* .page-header input {
     height: 55px;
     width: 630px !important;
     font-size: 24px !important;
     line-height: 26px !important;
-}
+} */
 
 .page-header .fa-search {
     position: absolute;
-    left: 80%;
+    right: 4%;
     font-size: 24px;
 }
 
@@ -370,7 +378,7 @@ body {
     font-size: 30px;
     line-height: 28px;
     margin-top: 3rem;
-    margin-bottom: 20px;
+    margin-top: 70px;
 }
 
 #track {
@@ -378,21 +386,22 @@ body {
     margin-top: 1.3rem;
     font-size: 30px;
     line-height: 28px;
-    margin-bottom: 20px;
+    margin-top: 70px;
 }
 
 .container .questions-track {
     position: relative;
-    width: 850px !important;
+    width: 650px !important;
     font-size: 20px !important;
     line-height: 26px !important;
     right: 25px;
+    margin-top: 20px;
 }
 
 .question1 img {
     position: absolute;
-    top: 32.96%;
+    top: 30.96%;
     right: 2.61%;
-    height: 26px !important;
+    height: 20px !important;
 }
     }
