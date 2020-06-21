@@ -1,0 +1,23 @@
+.contact-us-cont {
+    background-image:url('../img/contact/bg-top.png'), url('../img/contact/bg-bottom.png');
+    background-repeat:no-repeat, no-repeat;
+    background-position:100% 5%, 0% 500px;
+}
+
+.color {
+    color: #FC4E17;
+}
+
+.input-border {
+    border: 1px solid #FC4E17;
+}
+
+.bg-color {
+    background-color: #FC4E17;
+}
+
+@media (max-width: 500px){
+    .contact-us-cont {
+        background-position:250px -50px, 0% 1000%;
+    }
+}

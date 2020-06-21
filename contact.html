@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link 
+        href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" 
+        rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header start -->
+    <header>
+      <div class="container mt-4 mb-4">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Track</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn_1" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header end -->
+    <!-- Contact Starts here -->
+    <section class="contact-us-cont lg:px-12 lg:py-6">
+        <h1 
+            class="color capitalize text-4xl pl-4 md:pl-0 py-6"
+        >
+            contact us
+        </h1>
+        <div class="w-full flex flex-col-reverse justify-between md:flex-row">
+            <!-- Contact container starts -->
+            <div class="pl-4 flex flex-wrap md:block md:mt-6">
+                <div class="w-1/2  md:w-auto mb-3">
+                    <img src="./img/contact/location.png" alt="">
+                    <h5 class="font-bold capitalize">our location</h5>
+                    <p class="capitalize">lagos, nigeria</p>
+                </div>
+                <div class="mb-3">
+                    <img src="./img/contact/email 1.png" alt="">
+                    <h5 class="font-bold capitalize">our email</h5>
+                    <p class="capitalize">info@logistix.org</p>
+                </div>
+                <div class="w-1/2  md:w-auto mb-3">
+                    <img src="./img/contact/phone-call 1.png" alt="">
+                    <h5 class="font-bold capitalize">call us</h5>
+                    <p class="capitalize">+2347034575698</p>
+                </div>
+                <div class="mb-3">
+                    <a href="./faq.html">
+                        <img src="./img/contact/conversation-questions 2.png" alt="">
+                        <h5 class="font-bold uppercase">faq</h5>
+                    </a>
+                </div>
+            </div>
+            <!-- Contact container ends -->
+            <!-- Form container starts -->
+            <form action="" class="w-full text-right my-4 sm:mt-0 md:w-2/3 lg:w-3/4 px-4">
+                <div class=" md:flex">
+                    <input 
+                        type="text" 
+                        placeholder="Name" 
+                        class="input-border h-12 w-full pl-2 mb-4 md:mb-0 md:mr-3"
+                    />
+                    <input 
+                        type="email" 
+                        placeholder="Email"
+                        class="input-border h-12 w-full pl-2 md:ml-3" 
+                    />
+                </div>
+                <br>
+                <input 
+                    type="text" 
+                    placeholder="Subject"
+                    class="input-border h-12 w-full pl-2"
+                />
+                <br>
+                <textarea 
+                    name="" 
+                    id="" 
+                    cols="30" 
+                    rows="10" 
+                    class="input-border w-full mt-4"
+                >  Message
+                </textarea>
+                <br>
+                <button class="bg-color w-full md:w-auto text-white rounded py-2 px-6 mt-4">Send message</button>
+            </form>
+            <!-- Form container ends -->
+        </div>
+    </section>
+    <!-- Contact ends here -->
+    <!-- Footer start -->
+    <footer class="footer footer_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4">
+            <img
+              src="./img/logo-white.svg"
+              class="img-fluid mt-2 mb-4"
+              alt="logo"
+            />
+            <ul class="social-icons d-flex mt-4">
+              <li>
+                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram fa-2x pl-5"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-facebook fa-2x pl-5"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-4">
+            <h4 class="text-white mb-4">About</h4>
+            <ul>
+              <li><a href="#">Meet Our Team</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-4">
+            <h4 class="text-white mb-4">Services</h4>
+            <ul>
+              <li><a href="#">House Delivery</a></li>
+              <li><a href="#">Dispatch Ride</a></li>
+              <li><a href="#">Product Delivery</a></li>
+              <li><a href="#">Ware House</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-4">
+            <h4 class="text-white mb-4">Quick links</h4>
+            <ul>
+              <li><a href="#">Request A Quote</a></li>
+              <li><a href="#">Global Agents</a></li>
+              <li><a href="#">Help & FAQ</a></li>
+            </ul> 
+          </div>
+
+          <div class="col-sm-12 mt-4 text-white text-center">
+            <p>Copyright &copy; 2020</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Script start -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script end -->
+  </body>
+</html>
