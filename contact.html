@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/about.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -26,9 +27,9 @@
   <body>
     <!-- Header start -->
     <header>
-      <div class="container mt-4 mb-4">
+      <div class="container-fluid my-4 px-o px-xl-5 mt-4 mb-4">
         <nav class="navbar navbar-expand-md">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand pl-3" href="index.html">
             <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
           </a>
           <button
@@ -37,28 +38,28 @@
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
           >
-            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            <span class="navbar-toggler-icon"><i class="fa fa-bars txt-light menu-bar"></i></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+            <ul class="navbar-nav ml-auto pr-lg-3">
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="./index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="./about.html">About Us</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item  pl-2">
                 <a class="nav-link" href="#">Services</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Track</a>
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="./new-package.html">Dispatch</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sign In</a>
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="./contact.html" id="nav-active">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="btn_1" href="#">Sign Up</a>
+              <li class="nav-item  pl-2">
+                <a class="btn_1" href="#" style="color: black; border-color: #FE5C28;">Sign Up</a>
               </li>
             </ul>
           </div>
@@ -67,7 +68,7 @@
     </header>
     <!-- Header end -->
     <!-- Contact Starts here -->
-    <section class="contact-us-cont lg:px-12 lg:py-6">
+    <section class="contact-us-cont lg:px-12 lg:py-6" style="margin-top: 150px;">
         <h1 
             class="color capitalize text-4xl pl-4 md:pl-0 py-6"
         >
@@ -120,14 +121,7 @@
                     class="input-border h-12 w-full pl-2"
                 />
                 <br>
-                <textarea 
-                    name="" 
-                    id="" 
-                    cols="30" 
-                    rows="10" 
-                    class="input-border w-full mt-4"
-                >  Message
-                </textarea>
+                <textarea name="" id="" cols="30" rows="10" class="input-border w-full mt-4 pl-2" placeholder="Message"> </textarea>
                 <br>
                 <button class="bg-color w-full md:w-auto text-white rounded py-2 px-6 mt-4">Send message</button>
             </form>
@@ -137,39 +131,49 @@
     <!-- Contact ends here -->
     <!-- Footer start -->
     <footer class="footer footer_padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-4">
+      <div class="container-fluid pl-md-5">
+        <div class="row pl-md-4">
+          <div class="col-md-6">
             <img
               src="./img/logo-white.svg"
               class="img-fluid mt-2 mb-4"
               alt="logo"
             />
+            <p class="footer-text">
+              Logistix is a representative logistic operator, providing full
+              range of delivery services for individual, cooperate and
+              industrial company. We are currently available in 26 African
+              countries, giving the best of the best services through our well
+              trained staffs.
+            </p>
             <ul class="social-icons d-flex mt-4">
               <li>
-                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                <a href="#"><img src="./img/social/facebook.svg" alt="" /></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-instagram fa-2x pl-5"></i></a>
+                <a href="#"><img src="./img/social/linkedin.svg" alt="" /></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-facebook fa-2x pl-5"></i></a>
+                <a href="#"><img src="./img/social/insta.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/social/twiter.svg" alt="" /></a>
               </li>
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">About</h4>
-            <ul>
-              <li><a href="#">Meet Our Team</a></li>
-              <li><a href="#">Contact</a></li>
+            <ul class="footer-list">
+              <li><a href="./about.html#meet-team">Meet Our Team</a></li>
+              <li><a href="./contact.html">Contact</a></li>
               <li><a href="#">Career</a></li>
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">Services</h4>
-            <ul>
+            <ul class="footer-list">
               <li><a href="#">House Delivery</a></li>
               <li><a href="#">Dispatch Ride</a></li>
               <li><a href="#">Product Delivery</a></li>
@@ -177,17 +181,17 @@
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">Quick links</h4>
-            <ul>
-              <li><a href="#">Request A Quote</a></li>
+            <ul class="footer-list">
+              <li><a href="./index.html#request-quote">Request A Quote</a></li>
               <li><a href="#">Global Agents</a></li>
-              <li><a href="#">Help & FAQ</a></li>
-            </ul> 
+              <li><a href="./faq.html">Help & FAQ</a></li>
+            </ul>
           </div>
 
           <div class="col-sm-12 mt-4 text-white text-center">
-            <p>Copyright &copy; 2020</p>
+            <p>Copyright &copy; 2020 All rights reserved.</p>
           </div>
         </div>
       </div>

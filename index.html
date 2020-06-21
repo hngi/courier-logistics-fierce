@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Logistics | Experts in worldwide courier logistics</title>
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/landing-page.css" />
     <link
       rel="stylesheet"
@@ -22,12 +24,13 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body style="overflow-x: hidden;">
+    
     <!-- Header start -->
     <header>
-      <div class="container-fluid mb-4">
-        <nav class="navbar navbar-expand-md px-5">
-          <a class="navbar-brand" href="index.html">
+      <div class="container-fluid my-4 px-o px-xl-5 mt-4 mb-4">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand pl-3" href="index.html">
             <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
           </a>
           <button
@@ -36,27 +39,27 @@
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
           >
-            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            <span class="navbar-toggler-icon"><i class="fa fa-bars txt-light menu-bar"></i></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mt-3">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+            <ul class="navbar-nav ml-auto pr-lg-3">
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="./index.html" id="nav-active">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="./about.html">About Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="#" >Services</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link white-color" href="#">Dispatch</a>
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="./new-package.html">Dispatch</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link white-color" href="#">Sign In</a>
+              <li class="nav-item  pl-2">
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
-              <li class="nav-item white-color">
+              <li class="nav-item  pl-2">
                 <a class="btn_1" href="#">Sign Up</a>
               </li>
             </ul>
@@ -66,42 +69,25 @@
     </header>
     <!-- Header end -->
 
-    <!-- Hero start -->
-    <section class="hero hero_padding">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-5 col-sm-12 margin_top_mobile">
-            <h1 class="text-capitalize mt-4 mb-4">
-              the best platform for transport and delivery
-            </h1>
-            <p>
-              Logistix provides full range of transportation, logistic and
-              courier services worldwide.
-            </p>
-            <a
-              href="#"
-              class="btn btn-primary shadow-lg text-capitalize mt-4 mb-2"
-              >learn more</a
-            >
-            <div class="col-md-6 mt-4 mb-4 d-flex logo">
-              <img
-                src="./img/playstore 1.png"
-                alt="logo"
-                class="img-fluid mr-4"
-              />
-              <img src="./img/appstore 1.png" alt="logo" class="img-fluid" />
-            </div>
-          </div>
-
-          <div
-            class="col-lg-7 pl-lg-5 col-sm-12 d-none d-lg-block rounded_bg_curve"
-          >
-            <img src="./img/delivery-van.png" alt="image" class="img-fluid" />
-          </div>
+    <!-- hero section -->
+    <section class="container-fluid mb-5" id="hero">
+      <div class="row" id="hero-text" style="width: 100% !important">
+        <div class="col-md-5 pl-3 pt-md-5 pl-lg-5 p-sm-5 d-flex flex-column justify-content-center hero-mobile">
+          <h3 class="txt-caption pl-lg-4 txt-primary text-center text-sm-left text-capitalize mt-5">the best platform for transport and delivery solution</h3>
+          <p class="txt-hero pl-lg-4">Logistix is a representative logistic operator, providing full
+            range of delivery services for individual, cooperate and industrial company. We are currently operate on every continent, giving the best of the best services through our
+            well trained staffs.</p>
         </div>
+          <img 
+            id="hero-img"
+            class="col-md-7 d-none d-sm-block pr-0 flex-grow-1" 
+            src="./img/landing-top-design.png" 
+            alt="" 
+            class="img-fluid hero-img"
+          >
       </div>
     </section>
-    <!-- Hero end -->
+
 
     <!-- About Us start -->
     <section class="about about_padding">
@@ -133,7 +119,7 @@
     <section class="services services_padding">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4 mobile_text_center">
+          <div class="col-md-5 mobile_text_center">
             <h2 class="text-capitalize mt-5 mb-4">
               services we offer
             </h2>
@@ -147,61 +133,63 @@
               >explore our services</a
             >
           </div>
-
-          <div class="col-lg-3 mt-4 px-4 pt-4 shadow ml-auto">
-            <img src="./img/Group 11.png" class="img-fluid" alt="truck" />
-            <h5 class="mt-4">Household Delivery</h5>
-            <p>
-              We have well coordinated transportation to help you deliver your
-              heavy duties.
-            </p>
-            <a href="#" class="btn btn-link text-left mr-5">Read More</a>
+          <div class="col-md-7 px-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-4 service-item">
+                <img src="./img/Group 11.png" class="img-fluid img-fluid-service" alt="truck" />
+                <h5 class="mt-4">Household Delivery</h5>
+                <p>
+                  We have well coordinated transportation to help you deliver your
+                  heavy duties.
+                </p>
+                <a href="#" class="btn btn-link text-left p-0">Read More</a>
+              </div>
+    
+              <div class="col-md-4 service-item">
+                <img src="./img/Group 12.png" class="img-fluid img-fluid-service" alt="truck" />
+                <h5 class="mt-4">Dispatch Ride</h5>
+                <p>
+                  For fast track services, our dispatch service have you covered.
+                </p>
+                <a href="#" class="btn btn-link text-left p-0">Read More</a>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-4 service-item">
+                <img src="./img/Group 14.png" class="img-fluid img-fluid-service" alt="truck" />
+                <h5 class="mt-4">Product Delivery</h5>
+                <p>
+                  We provide door to door delivery of consumer good with love
+                </p>
+                <a href="#" class="btn btn-link text-left p-0">Read More</a>
+              </div>
+    
+              <div class="col-md-4 service-item">
+                <img src="./img/Group 13.png" class="img-fluid img-fluid-service" alt="truck" />
+                <h5 class="mt-4">Ware Housing</h5>
+                <p>
+                  We have warehouse located at different location across Africa.
+                </p>
+                <a href="#" class="btn btn-link text-left p-0">Read More</a>
+              </div>
+            </div>
           </div>
 
-          <div class="col-lg-3 mt-4 px-4 pt-4 shadow ml-auto">
-            <img src="./img/Group 12.png" class="img-fluid mt-2" alt="truck" />
-            <h5 class="mt-4">Dispatch Ride</h5>
-            <p>
-              For fast track services, our dispatch service have you covered.
-            </p>
-            <a href="#" class="btn btn-link text-left mr-5">Read More</a>
-          </div>
+         
         </div>
-
-        <div class="row">
-          <div class="ellipse_1 col-lg-2">
-            <img
-              src="./img/Ellipse 27.png"
-              alt="img"
-              class="img-fluid ellipse27"
-            />
-          </div>
-
-          <div class="product col-lg-3 mt-4 px-4 pt-4 shadow">
-            <img src="./img/Group 14.png" class="img-fluid mt-2" alt="truck" />
-            <h5 class="mt-4">Product Delivery</h5>
-            <p>
-              We provide door to door delivery of consumer good with ul
-            </p>
-            <a href="#" class="btn btn-link text-left mr-5">Read More</a>
-          </div>
-
-          <div class="ellipse_2 col-lg-3 mt-4 px-4 pt-4 ml-auto shadow">
-            <img src="./img/Group 13.png" class="img-fluid mt-2" alt="truck" />
-            <h5 class="mt-4">Ware Housing</h5>
-            <p>
-              We have warehouse located at different location across Africa.
-            </p>
-            <a href="#" class="btn btn-link text-left mr-5">Read More</a>
-          </div>
-        </div>
+       
       </div>
     </section>
-    <!-- Services We Offer start -->
+    <!-- Services We Offer ends -->
+      <img style="position: absolute; left: 0; top: 2000px; z-index: -100;"
+        src="./img/Ellipse 27.png"
+        alt="img"
+        class="img-fluid ellipse27"
+      />
 
     <!-- Service delivery start -->
-    <section class="delivery service_delivery_padding">
-      <div class="container-fluid">
+    <section class="delivery service_delivery_padding" id="request-quote">
+      <div class="container-md">
         <div class="row">
           <div class="col-sm-12 col-lg-5 card">
             <h5 class="card-header text-center p-4">
@@ -283,51 +271,40 @@
               clearance transportation all over Africa.
             </p>
 
-            <div class="d-flex mt-5 mb-5">
-              <div class="col-md-4 col-lg-4">
-                <img src="./img/afforrable.png" alt="img" class="img-fluid" />
-              </div>
+            <div class="row d-flex justify-content-center  mt-5 mb-5  service-delivery-images">
+                <img src="./img/affordable.png" alt="img" class="img-fluid" />
 
-              <div class="col-md-4 col-lg-4">
                 <img src="./img/safety.png" alt="img" class="img-fluid" />
-              </div>
 
-              <div class="col-md-4 col-lg-4">
                 <img
                   src="./img/fast_delivery.png"
                   alt="img"
                   class="img-fluid"
                 />
-              </div>
             </div>
 
-            <div class="d-flex mt-5 mb-5">
-              <div class="col-md-4 col-lg-6">
+            <div class="row d-flex justify-content-center  mt-5 mb-5  service-delivery-images">
                 <img src="./img/tracker.png" alt="img" class="img-fluid" />
-              </div>
 
-              <div class="col-md-4 col-lg-4">
                 <img src="./img/Group 18.png" alt="img" class="img-fluid" />
-              </div>
-
-              <div class="col-md-4 col-lg-2">
-                <img
-                  src="./img/Ellipse 28.png"
-                  alt="img"
-                  class="img-fluid cuvrve_icon"
-                />
-              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Service delivery end -->
+    <div style="position: absolute; right: 0; z-index: -100; top: 2750px;">
+      <img
+        src="./img/right-ellipse.svg"
+        alt="img"
+        class="img-fluid cuvrve_icon"
+      />
+    </div>
 
     <!-- Companies Registered With Us start -->
     <section class="companies companies_padding">
-      <div class="container-fluid">
-        <div class="row">
+      <div class="container-md">
+        <div class="row d-flex">
           <div class="col-lg-5 mobile_margin">
             <h2 class="text-capitalize mt-4 mb-4">
               over 100 companies are registered with us.
@@ -339,7 +316,7 @@
             </p>
           </div>
 
-          <div class="col-lg-7 pl-lg-5 companies_logo">
+          <div class="col-lg-7 pl-lg-5 companies_logo" style="position: relative; height: 400px">
             <img
               src="./img/grind.png"
               alt="grind"
@@ -392,7 +369,7 @@
     <!-- Companies Registered With Us end -->
 
     <!-- Testimonials start -->
-    <section class="testimonials testimonials_padding p-5">
+    <section class="testimonials testimonials_padding p-5 mb-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mobile_hidden">
@@ -442,32 +419,33 @@
     <!-- Empty section space end -->
 
     <!-- Send Packages start -->
-    <section class="packages send_packages_padding">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 text-white">
+    <section class="packages send_packages_padding mb-5" style="background-color: #ff5c28 !important;">
+      <div class="container-lg">
+        <div class="row d-flex">
+          <div class="col-md-6 col-sm-12 text-white">
             <div class="margin_top">
               <h2 class="text-capitalize mb-4">
                 you can send your package now!
               </h2>
               <p class="mb-4 text-white">
-                Be the first to learn about exciting offers and more information
-                about ttransportation system.
+                Register now and start to enjoy the benefits of a world class courier logistics company dedicated to
+                helping you deliver your packages to any location in the world seamlessly 
               </p>
-              <div class="col-sm-12 d-flex margin mt-4">
+              <div class="row col-sm-12 d-flex justify-content-between margin mt-4" style="max-width: 100% !important;">
                 <form>
                   <input
+                  style="max-width: 800px !important;"
                     type="text"
-                    class="form-control form-control-lg d-block"
+                    class="form-control form-control-lg d-block col-sm-12 flex-grow-1"
                     placeholder="Name"
                   />
                 </form>
-                <a href="#" class="btn-primary btn-lg ml-auto">Sign Up</a>
+                <a href="#" class="btn-primary btn-lg">Sign Up</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 mobile_hidden">
+          <div class="col-md-6 col-sm-12 d-flex justify-content-center">
             <img
               src="../img/delivery-man.png"
               alt="delivery"
@@ -485,39 +463,49 @@
 
     <!-- Footer start -->
     <footer class="footer footer_padding">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-3 col-sm-4">
+      <div class="container-fluid pl-md-5">
+        <div class="row pl-md-4">
+          <div class="col-md-6">
             <img
               src="./img/logo-white.svg"
               class="img-fluid mt-2 mb-4"
               alt="logo"
             />
+            <p class="footer-text">
+              Logistix is a representative logistic operator, providing full
+              range of delivery services for individual, cooperate and
+              industrial company. We are currently available in 26 African
+              countries, giving the best of the best services through our well
+              trained staffs.
+            </p>
             <ul class="social-icons d-flex mt-4">
               <li>
-                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                <a href="#"><img src="./img/social/facebook.svg" alt="" /></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-instagram fa-2x pl-5"></i></a>
+                <a href="#"><img src="./img/social/linkedin.svg" alt="" /></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-facebook fa-2x pl-5"></i></a>
+                <a href="#"><img src="./img/social/insta.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/social/twiter.svg" alt="" /></a>
               </li>
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">About</h4>
-            <ul>
-              <li><a href="#">Meet Our Team</a></li>
-              <li><a href="#">Contact</a></li>
+            <ul class="footer-list">
+              <li><a href="./about.html#meet-team">Meet Our Team</a></li>
+              <li><a href="./contact.html">Contact</a></li>
               <li><a href="#">Career</a></li>
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">Services</h4>
-            <ul>
+            <ul class="footer-list">
               <li><a href="#">House Delivery</a></li>
               <li><a href="#">Dispatch Ride</a></li>
               <li><a href="#">Product Delivery</a></li>
@@ -525,17 +513,17 @@
             </ul>
           </div>
 
-          <div class="col-md-3 col-sm-4">
+          <div class="col-md-2 col-sm-4">
             <h4 class="text-white mb-4">Quick links</h4>
-            <ul>
-              <li><a href="#">Request A Quote</a></li>
+            <ul class="footer-list">
+              <li><a href="./index.html#request-quote">Request A Quote</a></li>
               <li><a href="#">Global Agents</a></li>
-              <li><a href="#">Help & FAQ</a></li>
+              <li><a href="./faq.html">Help & FAQ</a></li>
             </ul>
           </div>
 
           <div class="col-sm-12 mt-4 text-white text-center">
-            <p>Copyright &copy; 2020. All Right reserved.</p>
+            <p>Copyright &copy; 2020 All rights reserved.</p>
           </div>
         </div>
       </div>

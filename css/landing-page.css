@@ -34,6 +34,7 @@ a {
   padding-right: 30px;
 }
 
+
 .navbar-nav .active {
   border-bottom: 4px solid var(--mainColor);
   width: 68px;
@@ -75,14 +76,11 @@ nav .btn_1 {
   margin-top: 100px;
 }
 
-.rounded_bg_curve {
-  background-color: rgba(255, 92, 40, 0.5);
-  border-radius: 33% 0% 0% 67% / 100% 45% 1% 35%;
-  padding: 250px 200px 20px 300px;
-  margin-top: -240px;
-  border-left: 20px solid #ff8660;
-  border-bottom: 15px solid #ff8660;
+#hero-img{
+  position: relative !important;
+  right: -15px !important;
 }
+
 
 @media (max-width: 992px) {
   .hero .margin_top_mobile {
@@ -98,6 +96,23 @@ nav .btn_1 {
     margin-top: -80px;
   }
 }
+
+@media (max-width: 768px) {
+  #hero-img {
+    display: none !important;
+  }
+  #hero-text {
+
+    text-align: center;
+  }
+
+  #hero .hero-mobile{
+    width: 100%;
+    margin: 40px auto 0;
+}
+}
+
+
 /* Hero end */
 
 /* About Us start */
@@ -142,8 +157,32 @@ nav .btn_1 {
 .services_padding {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.service-item {
+  margin: 2rem 0.5rem;
+  padding: 1rem 1.5rem;
+  width: 436px !important;
+  max-width: 436px !important;
+  min-width: 286px !important;
+  min-height: 220.16px;
+  background: #ffffff;
+  box-shadow: 0px 2px 30px rgba(177, 31, 31, 0.25);
+  border-radius: 5px;
+  height: 280px !important;
+}
+
+.service-item p {
+  height: 90px;
+}
+
+
+
+.img-fluid-service {
+  height: 70px !important;
+  width: 70px !important;
 }
 
 .services p {
@@ -174,9 +213,7 @@ nav .btn_1 {
   font-weight: bold;
 }
 
-.card {
-  width: 18rem !important;
-}
+
 
 .shadow {
   background: var(--whiteColor);
@@ -223,8 +260,6 @@ nav .btn_1 {
 .service_delivery_padding {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 65px;
-  padding-right: 50px;
 }
 
 .delivery h2 {
@@ -259,6 +294,12 @@ nav .btn_1 {
   font-size: 24px;
 }
 
+.service-delivery-images img {
+  width: 120px;
+  height: 120px;
+  margin: 1rem 1rem;
+}
+
 .delivery .card {
   padding: 0 !important;
 }
@@ -275,13 +316,7 @@ nav .btn_1 {
   color: var(--mainColor);
 }
 
-@media (max-width: 992px) {
-  .delivery .cuvrve_icon,
-  .delivery .card,
-  .companies_logo {
-    display: none !important ;
-  }
-}
+
 
 @media (max-width: 768px) {
   .delivery h2,
@@ -305,18 +340,7 @@ nav .btn_1 {
   border: none !important;
 }
 
-@media (max-width: 768px) {
-  .delivery .margin_mobile,
-  .companies .mobile_margin {
-    margin-top: -100px;
-  }
-}
 
-@media (max-width: 768px) {
-  .testimonials .mobile_hidden {
-    display: none;
-  }
-}
 
 @media (max-width: 768px) {
   .testimonials .mobile_bottom {
@@ -341,6 +365,11 @@ nav .btn_1 {
 
 /* Service delivery end */
 
+.companies_logo {
+  position: relative;
+}
+
+
 /* Testimonials start */
 .testimonials_padding {
   background-color: var(--mainColor);
@@ -352,6 +381,8 @@ nav .btn_1 {
 .empty_space_2 {
   padding: 150px 0;
 }
+
+
 
 @media (max-width: 992px) {
   .empty_space_1 {
@@ -365,12 +396,15 @@ nav .btn_1 {
   background-color: var(--mainColor);
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 50px;
 }
 
 .packages .margin {
   margin-left: -15px !important;
 }
+
+/* .margin input {
+  width: 70% !important;
+} */
 
 .packages .btn-primary {
   background-color: #ff5c28;
@@ -401,7 +435,10 @@ nav .btn_1 {
 .companies_padding {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 50px;
+}
+
+.companies img {
+  box-shadow: 2px 2px 30px rgba(177, 31, 31, 0.25) !important;
 }
 
 .companies h2 {
@@ -414,58 +451,71 @@ nav .btn_1 {
 }
 
 .companies .ostrich {
-  position: relative;
-  top: 120px;
+  position: absolute !important;
+  top: 50%;
+  right: 14%;
+}
+
+.companies .bakery {
+  position: absolute !important;
+  top: 0;
+  left: 35%;
 }
 
 .companies .dribbble_shot {
-  position: relative;
-  top: 0;
-  left: 80px;
+  padding: 0 !important;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  height: 150px;
 }
 
 .companies .mask {
-  position: relative;
-  bottom: -40px;
+  box-shadow: none !important;
+  position: absolute;
+  padding: 0 !important;
+  margin: 0 !important;
+  top: 10%;
+  padding: 0 !important;
+  height: 150px;
+  right: 15%;
 }
 
-.companies .ostrich {
-  position: relative;
-  top: 30px;
+.companies .grind {
+  position: absolute;
+  top: 10%;
   margin-left: -10px;
+  height: 120px;
+  left: 25%;
 }
 
 .companies .shield {
-  position: relative;
-  top: 150px;
-  left: 60px;
+  position: absolute;
+  height: 95px;
+  bottom: 0;
+  right: 30%;
 }
 
 .companies .flower {
-  position: relative;
-  top: 0px;
-  margin-left: 270px;
+  position: absolute;
+  bottom: 12%;
+  right: 45%;
 }
 
 .companies .joy {
-  position: relative;
-  top: 0px;
-  right: 180px;
+  position: absolute;
+  bottom: 20px;
+  left: 200px;
+  height: 70px;
 }
 
 .companies .tree {
-  position: relative;
-  top: -140px;
-  right: 370px;
+  position: absolute;
+  top: 45%;
+  left: 24%;
+  height: 90px;
 }
 
-@media (max-width: 1080px) {
-  .companies .tree {
-    position: relative;
-    top: 0 !important;
-    margin: 0 !important;
-  }
-}
 /*  Companies end */
 
 /* Footer start */
@@ -477,28 +527,4 @@ a {
   text-decoration: none !important;
 }
 
-.footer a,
-.footer p {
-  color: var(--whiteColor);
-  line-height: 2;
-  font-size: 18px;
-}
 
-.footer_padding {
-  background-color: var(--mainColor);
-  padding-top: 100px;
-  padding-left: 50px;
-}
-
-.footer li {
-  margin-left: -38px !important;
-}
-
-/* Small screens */
-@media (max-width: 768px) {
-  .footer p {
-    text-align: left;
-    margin-top: -25px;
-  }
-}
-/* Footer end */

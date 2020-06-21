@@ -23,7 +23,7 @@
     font-family: 'Lato', sans-serif;
 }
 .txt-hero{
-    font-size: 0.98em;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'Lato', sans-serif;
     color: #232323;
@@ -31,7 +31,7 @@
 .txt-primary{
     color: #FF5C28;
 }
-#care-taker .card{
+.care-taker .card{
     width: 23rem;
 }
  /***** header styles *****/
@@ -181,16 +181,16 @@ header .navbar-nav > li{
     }
 }
 @media screen and (max-width:560px){
-    #care-taker .card{
+    .care-taker .card{
         width: 32rem;
     }
-    #care-taker .txt-large{
+    .care-taker .txt-large{
         font-size: 2em;
     }
-    #care-taker .txt{
+    .care-taker .txt{
         font-size: 1.2em;
     }
-    #care-taker .txt-caption{
+    .care-taker .txt-caption{
         font-size: 2.5em;
     }
 }

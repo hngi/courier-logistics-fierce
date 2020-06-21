@@ -34,23 +34,20 @@ body {
   height: 100%;
 }
 
+
+
 .nav-link {
-  font-size: 20px;
-  color: white;
+  font-size: 21px;
+  color: black;
   transition: all 0.3s ease;
-  border-bottom: 0px solid #fff;
   border-radius: 2px;
 }
 
-.nav-link:hover,
-.nav-item.active .nav-link {
-  color: #fc4e17;
-  border-width: 2px;
-}
 
-/* .btn_1:hover {
+
+.btn_1:hover {
   background: #fc4e17;
-} */
+}
 
 /* Services Styling */
 .service-banner {

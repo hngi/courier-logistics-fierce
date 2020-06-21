@@ -21,6 +21,20 @@ nav .btn_1 {
   font-weight: 500;
   color: #ff6633!important;
 }
+
+.navbar-nav li #nav-active:after{
+  opacity: 1;
+  width: 100%;
+}
+
+#nav-active {
+  color: #ff6633!important;
+}
+
+
+.nav-link:hover {
+  color: #ff6633;
+}
 /* Header end */
 
 /* Footer start */
@@ -54,13 +68,14 @@ a {
 }
 
 .footer_padding {
-  background-color: #ff6633;
+  background-color: #FE5C28;
   padding: 50px 0 10px;
 }
 
 .footer .social-icons img {
   width: 50px;
 }
+
 
 
 .footer-list li {
