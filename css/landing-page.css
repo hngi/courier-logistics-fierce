@@ -97,10 +97,19 @@ nav .btn_1 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   #hero-img {
     display: none !important;
   }
+  * {
+    outline: 1px solid red;
+  }
+  
+  #hero h3 {
+
+    text-align: center !important;
+  }
+
   #hero-text {
     margin-top: 50px;
     text-align: center;
