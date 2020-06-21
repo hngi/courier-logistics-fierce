@@ -139,17 +139,20 @@ section .sign-up {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position:center;
+  }
+  section .background-form{
+    background-position:center;
   }
   .form {
-    margin-top: 0px;
+    margin-top: 0px ;
   }
   .btns {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .line1,
   .line2 {
-    width: 50px;
+    width: 55px !important;
   }
   .name {
     line-height: 22px;
