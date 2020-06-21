@@ -186,11 +186,12 @@ body {
   }
 
   .nav-link {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   nav .btn_1 {
-    padding: 10px;
+    padding: 5px;
+    font-size: 15px !important;
   }
 
   .services-items .row {
