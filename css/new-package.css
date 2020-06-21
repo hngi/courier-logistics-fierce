@@ -32,7 +32,7 @@ html {
   }
   
   #overlay {
-    background: rgba(77, 69, 69, 0.5);
+    background: rgba(165, 117, 117, 0.5);
     content: '';
     position: absolute;
     top: 0;
