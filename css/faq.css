@@ -3,36 +3,41 @@
 body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    background: #E5E5E5 !important;
+    background: #FFFFFF !important;
+}
+
+.container {
+    margin-top: 106px;
 }
 
 /* Page header */
 .page-header h1 {
-    font-size: 48px !important;
-    line-height: 58px !important;
+    font-size: 44px !important;
+    line-height: 40px !important;
     color: #FF5C28;
 }
 
 /* Overriding bootstrap styles */
 #top-header {
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 3rem;
 }
 
 .page-header input {
-    height: 90px;
+    margin-top: 12px;
+    height: 60px;
     border-radius: 15px;
-    width: 745px !important;
-    font-size: 40px !important;
-    line-height: 48px !important;
+    width: 685px !important;
+    font-size: 22px !important;
+    line-height: 40px !important;
     color: rgba(0, 0, 0, 0.3);
     background: rgba(255, 239, 233, 0.5);
 }
 
 .page-header .fa-search {
     position: absolute;
-    left: 71.6%;
-    font-size: 35px;
+    left: 69.6%;
+    font-size: 26px;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -48,17 +53,23 @@ body {
 /* Overriding bootstrap styles */
 #delivery {
     font-weight: 900;
+    font-size: 34px;
+    line-height: 37px;
+    margin-top: 62px;
 }
 
 #track {
     font-weight: 900;
+    font-size: 34px;
+    line-height: 37px;
+    margin-top: 67px;
 }
 
 .container .questions-track {
     position: relative;
     width: 1089px;
-    font-size: 23px !important;
-    line-height: 43px !important;
+    font-size: 20px !important;
+    line-height: 41px !important;
 }
 
 .question1 img {
@@ -98,6 +109,10 @@ body {
 /* Media Queries */
 /* Small devices e.g. smartphones*/
 @media all and (max-width: 479px) {
+
+.container {
+    margin-top: 80px;
+}
 /* Page header */
 .page-header h1 {
     font-size: 18px !important;
@@ -133,12 +148,18 @@ body {
 
 /* Overriding bootstrap styles */
 #delivery {
+    position: relative;
+    margin-top: 32px;
     font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 #track {
     font-weight: bold;
     margin-top: 1rem;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .container .questions-track {
@@ -146,7 +167,7 @@ body {
     width: 330px !important;
     font-size: 10px !important;
     line-height: 12px !important;
-    margin-top: 30px !important;
+    top: 15px;
 }
 
 .question1 img {
@@ -181,7 +202,7 @@ body {
 
 .page-header input {
     height: 38px;
-    width: 385px !important;
+    width: 405px !important;
     font-size: 16px !important;
     line-height: 18px !important;
 }
@@ -203,11 +224,16 @@ body {
 /* Overriding bootstrap styles */
 #delivery {
     font-weight: bold;
+    font-size: 21px;
+    line-height: 22px;
+    margin-top: 30px;
 }
 
 #track {
     font-weight: bold;
     margin-top: 1rem;
+    font-size: 21px;
+    line-height: 22px;
 }
 
 .container .questions-track {
@@ -232,14 +258,14 @@ body {
 @media all and (min-width: 768px) and (max-width: 959px) {  
         /* Page header */
     .page-header h1 {
-        font-size: 38px !important;
+        font-size: 32px !important;
         line-height: 35px !important;
     }
     
     /* Overriding bootstrap styles */
     #top-header {
         font-weight: 900;
-        margin-top: 1rem;
+        margin-top: 1.3rem;
         margin-bottom: .5rem !important;
     }
     
@@ -249,14 +275,14 @@ body {
     
     .page-header input {
         height: 48px;
-        width: 560px !important;
-        font-size: 22px !important;
+        width: 505px !important;
+        font-size: 20px !important;
         line-height: 24px !important;
     }
     
     .page-header .fa-search {
         position: absolute;
-        left: 83.6%;
+        left: 80.6%;
         font-size: 22px;
     }
     
@@ -270,17 +296,22 @@ body {
     /* Overriding bootstrap styles */
     #delivery {
         font-weight: bold;
+        font-size: 28px;
+        line-height: 28px;
+        margin-top: 30px;
     }
     
     #track {
         font-weight: bold;
-        margin-top: 1rem;
+        margin-top: 1.2rem;
+        font-size: 28px;
+        line-height: 28px;
     }
     
     .container .questions-track {
         position: relative;
-        width: 740px !important;
-        font-size: 19px !important;
+        width: 720px !important;
+        font-size: 18px !important;
         line-height: 22px !important;
     }
     
@@ -300,13 +331,13 @@ body {
 @media all and (min-width: 960px) and (max-width: 1199px) {  
     /* Page header */
 .page-header h1 {
-    font-size: 44px !important;
-    line-height: 45px !important;
+    font-size: 40px !important;
+    line-height: 42px !important;
 }
 
 /* Overriding bootstrap styles */
 #top-header {
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 1rem;
     margin-bottom: .5rem !important;
 }
@@ -317,14 +348,14 @@ body {
 
 .page-header input {
     height: 55px;
-    width: 700px !important;
-    font-size: 26px !important;
-    line-height: 28px !important;
+    width: 630px !important;
+    font-size: 24px !important;
+    line-height: 26px !important;
 }
 
 .page-header .fa-search {
     position: absolute;
-    left: 82.6%;
+    left: 80%;
     font-size: 24px;
 }
 
@@ -336,24 +367,26 @@ body {
 /* Overriding bootstrap styles */
 #delivery {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 28px;
     margin-top: 3rem;
+    margin-bottom: 20px;
 }
 
 #track {
     font-weight: bold;
-    margin-top: 1rem;
-    font-size: 32px;
+    margin-top: 1.3rem;
+    font-size: 30px;
     line-height: 28px;
-
+    margin-bottom: 20px;
 }
 
 .container .questions-track {
     position: relative;
-    width: 890px !important;
+    width: 850px !important;
     font-size: 20px !important;
     line-height: 26px !important;
+    right: 25px;
 }
 
 .question1 img {
@@ -363,18 +396,3 @@ body {
     height: 26px !important;
 }
     }
-
-@media all and (min-width: 1200px) {
-    /* Overriding bootstrap styles */
-#delivery {
-    margin-top: 4rem;
-    font-size: 40px;
-    line-height: 48px;
-}
-
-#track {
-    margin-top: 1.2rem;
-    font-size: 40px;
-    line-height: 48px;
-}
-}
