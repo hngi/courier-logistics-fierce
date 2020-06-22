@@ -54,8 +54,16 @@ nav .btn_1 {
   border-radius: 5px;
   padding: 10px 40px;
   line-height: 3;
-  color: black !important;
+  color: white;
   font-size: 18px;
+}
+
+
+@media (max-width: 990px) {
+  nav .btn_1 {
+    color: black !important;
+    border-color: var(--mainColor) !important;
+  }
 }
 /* Header end */
 
@@ -502,6 +510,13 @@ nav .btn_1 {
   top: 45%;
   left: 24%;
   height: 90px;
+}
+
+
+@media (max-width: 990px) {
+  .companies_padding {
+    padding-top: 0;
+  }
 }
 
 @media (max-width: 550px) {
