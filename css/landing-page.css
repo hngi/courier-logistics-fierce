@@ -7,6 +7,7 @@ body {
   font-family: 'Lato', sans-serif !important;
 }
 
+
 p {
   color: #3a3939;
   font-size: 18px !important;
@@ -355,20 +356,6 @@ nav .btn_1 {
   }
 }
 
-@media (max-width: 768px) {
-  .packages,
-  .packages h2 {
-    background-color: white !important;
-    color: #ff5c28 !important;
-    text-align: center;
-    margin-top: -100px;
-  }
-  .packages .mobile_hidden,
-  .packages form,
-  .packages a {
-    display: none !important;
-  }
-}
 
 /* Service delivery end */
 
@@ -424,13 +411,7 @@ nav .btn_1 {
   line-height: 2.5;
 }
 
-.packages .form-control {
-  width: 120%;
-}
 
-.packages .margin_top {
-  padding-top: 180px !important;
-}
 
 .packages p {
   font-size: 20px !important;
