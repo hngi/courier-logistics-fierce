@@ -83,13 +83,14 @@ html {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    width: 95%;
+    width: 100%;
+    position: relative;
   }
 
   .package-arc {
     position: absolute;
     right: 0;
-    top: 80%;
+    top: 30%;
   }
 
   .package__questions {
