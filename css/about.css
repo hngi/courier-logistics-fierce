@@ -2,7 +2,6 @@
 
 
 
-
 /***** text styles *****/
 .txt-large{
     font-size: 1.5em;
@@ -100,6 +99,7 @@ header .navbar-nav > li{
 }
 #hero .hero-img{
     position: relative;
+    right: -15px;
 }
 /******************/
 #service{
