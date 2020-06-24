@@ -24,8 +24,13 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body style="overflow-x: hidden;">
+  <body>
     
     <!-- Header start -->
     <header>
@@ -80,11 +85,11 @@
     <!-- hero section -->
     <section class="container-fluid mb-5" id="hero">
       <div class="row" id="hero-text" style="width: 100% !important">
-        <div class="col-lg-5 pl-3 pt-md-5 pl-lg-5 p-sm-5 d-flex flex-column justify-content-center hero-mobile">
-          <h3 class="txt-caption pl-lg-4 txt-primary text-center text-sm-left text-capitalize mt-5">the best platform for transport and delivery solution</h3>
+        <div class="col-lg-5 pl-3 pt-md-5 pl-lg-5 p-sm-5 d-flex flex-column justify-content-center hero-mobile" data-aos="fade-up" data-aos-delay="300">
+          <h3 class="txt-caption pl-lg-4 txt-primary text-center text-sm-left text-capitalize mt-5">the best platform for transport and delivery solutions</h3>
           <p class="txt-hero pl-lg-4">Logistix is a representative logistic operator, providing full
-            range of delivery services for individual, cooperate and industrial company. We are currently operate on every continent, giving the best of the best services through our
-            well trained staffs.</p>
+            range of delivery services for individual, cooperate and industrial company. We currently operate on every continent, giving the best of the best services through our
+            well trained staff.</p>
         </div>
           <img 
             id="hero-img"
@@ -127,7 +132,7 @@
     <section class="services services_padding">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-5 mobile_text_center">
+          <div class="col-md-5 mobile_text_center" data-aos="fade-in">
             <h2 class="text-capitalize mt-5 mb-4">
               services we offer
             </h2>
@@ -143,7 +148,7 @@
           </div>
           <div class="col-md-7 px-5">
             <div class="row d-flex justify-content-center">
-              <div class="col-md-4 service-item">
+              <div class="col-md-4 service-item" data-aos="fade-in" data-aos-delay="150">
                 <img src="./img/Group 11.png" class="img-fluid img-fluid-service" alt="truck" />
                 <h5 class="mt-4">Household Delivery</h5>
                 <p>
@@ -153,7 +158,7 @@
                 <a href="#" class="btn btn-link text-left p-0 pb-5">Read More</a>
               </div>
     
-              <div class="col-md-4 service-item">
+              <div class="col-md-4 service-item" data-aos="fade-in" data-aos-delay="250">
                 <img src="./img/Group 12.png" class="img-fluid img-fluid-service" alt="truck" />
                 <h5 class="mt-4">Dispatch Ride</h5>
                 <p>
@@ -162,7 +167,7 @@
                 <a href="#" class="btn btn-link text-left p-0 pb-5">Read More</a>
               </div>
             </div>
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center" data-aos="fade-in" data-aos-delay="150" >
               <div class="col-md-4 service-item">
                 <img src="./img/Group 14.png" class="img-fluid img-fluid-service" alt="truck" />
                 <h5 class="mt-4">Product Delivery</h5>
@@ -172,7 +177,7 @@
                 <a href="#" class="btn btn-link text-left p-0 pb-5">Read More</a>
               </div>
     
-              <div class="col-md-4 service-item">
+              <div class="col-md-4 service-item" data-aos="fade-in" data-aos-delay="250">
                 <img src="./img/Group 13.png" class="img-fluid img-fluid-service" alt="truck" />
                 <h5 class="mt-4">Ware Housing</h5>
                 <p>
@@ -270,7 +275,7 @@
             </div>
           </div>
 
-          <div class="col-lg-7 pl-lg-5 mt-5 mt-lg-0">
+          <div class="col-lg-7 pl-lg-5 mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <h2 class="text-capitalize mt-4 mb-4">
               committed to improving on our service delivery
             </h2>
@@ -313,7 +318,7 @@
     <section class="companies companies_padding">
       <div class="container-md">
         <div class="row d-flex">
-          <div class="col-lg-5 mobile_margin">
+          <div class="col-lg-5 mobile_margin wow bounceInUp">
             <h2 class="text-capitalize mt-4 mb-4">
               over 100 companies are registered with us.
             </h2>
@@ -553,6 +558,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Script end -->
   </body>
 </html>
