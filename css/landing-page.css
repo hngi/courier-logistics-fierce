@@ -68,6 +68,12 @@ nav .btn_1 {
 /* Header end */
 
 /* Hero start */
+#hero {
+  margin-bottom: 180px !important;
+  padding-top: 100px !important;
+}
+
+
 .hero_padding {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -80,20 +86,43 @@ nav .btn_1 {
   font-size: 48px;
 }
 
+
 .hero .logo {
   margin-left: -16px;
   margin-top: 100px;
+  
 }
 
 #hero-img{
-  position: relative !important;
-  right: -15px !important;
+  position: absolute !important;
+  right: 0;
+  top: 0;
 }
 
+.header-mobile {
+  margin-top: 200px !important;
+}
+
+.hero-btn-big {
+  background-color: var(--mainColor);
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  line-height: 19px;
+  padding: 12px 0;
+}
+
+.hero-btn-big:hover {
+  color: white;
+}
 
 @media (max-width: 992px) {
   .hero .margin_top_mobile {
     text-align: center;
+  }
+
+  #hero {
+    margin-bottom: 70px !important;
   }
 }
 
@@ -107,25 +136,9 @@ nav .btn_1 {
 }
 
 @media (max-width: 992px) {
-  #hero-img {
-    display: none !important;
-  }
 
-  
-  #hero h3 {
 
-    text-align: center !important;
-  }
-
-  #hero-text {
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  #hero .hero-mobile{
-    width: 100%;
-    margin: 40px auto 0;
-}
+ 
 }
 
 
@@ -148,6 +161,8 @@ nav .btn_1 {
   padding: 15px 40px;
   font-size: 18px;
 }
+
+
 
 .btn-big a {
   color: var(--mainColor) !important;
