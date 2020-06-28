@@ -21,10 +21,57 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/sign-in.css" />
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <link rel="stylesheet" href="./css/landing-page.css" />
+    <link rel="stylesheet" href="./css/services-page.css">
+    <link rel="stylesheet" href="./css/about.css">
   </head>
   <body>
     <!-- body start -->
+    <header>
+      <div class="container-fluid my-4 px-o px-xl-5 mt-4 mb-4">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand pl-3" href="index.html">
+            <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"><i class="fa fa-bars txt-light menu-bar"></i></span>
+          </button>
 
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto pr-lg-3">
+              <li class="nav-item  pl-1">
+                <a class="nav-link nav-link1" href="#">Home</a>
+              </li>
+              <li class="nav-item  pl-1">
+                <a class="nav-link nav-link1" href="./about.html">About Us</a>
+              </li>
+              <li class="nav-item  pl-1">
+                <a class="nav-link nav-link1" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item dropdown pl-1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Package
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item p-2" href="./new-package.html">Dispatch New Package</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item p-2" href="./track-package-form.html">Track Package</a>
+                </div>
+              </li>
+              <li class="nav-item  pl-1">
+                <a class="nav-link nav-link1" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
     <div class="background">
       <section class="container">
         <div class="row">
@@ -172,6 +219,73 @@
         </div>
       </section>
     </div>
+
+    <footer class="footer footer_padding">
+      <div class="container-fluid pl-lg-5">
+        <div class="row pl-lg-4">
+          <div class="col-md-6">
+            <img
+              src="./img/logo-white.svg"
+              class="img-fluid mt-2 mb-4"
+              alt="logo"
+            />
+            <p class="footer-text">
+              Logistix is a representative logistic operator, providing full
+              range of delivery services for individual, cooperate and
+              industrial company. We are currently available in 26 African
+              countries, giving the best of the best services through our well
+              trained staffs.
+            </p>
+            <ul class="social-icons d-flex mt-4">
+              <li>
+                <a href="#"><img src="./img/social/facebook.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/social/linkedin.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/social/insta.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/social/twiter.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <h4 class="text-white mb-4">About</h4>
+            <ul class="footer-list">
+              <li><a href="./about.html#meet-team">Meet Our Team</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <h4 class="text-white mb-4">Services</h4>
+            <ul class="footer-list">
+              <li><a href="#">House Delivery</a></li>
+              <li><a href="#">Dispatch Ride</a></li>
+              <li><a href="#">Product Delivery</a></li>
+              <li><a href="#">Ware House</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <h4 class="text-white mb-4">Quick links</h4>
+            <ul class="footer-list">
+              <li><a href="./index.html#request-quote">Request A Quote</a></li>
+              <li><a href="#">Global Agents</a></li>
+              <li><a href="./faq.html">Help & FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-12 mt-4 text-white text-center">
+            <p>Copyright &copy; 2020 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- body end -->
 

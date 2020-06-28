@@ -1,7 +1,7 @@
 div.background {
   padding-top: 100px;
   background-image: url(../img/Frame.png);
-  height: 1000px;
+  height: 900px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ section .active {
 section .line1 {
   position: relative;
   bottom: 4.5px;
-  left: 9px;
+  left: -1px;
   top: -18px;
   width: 75px;
   border: 4px solid black;
@@ -45,7 +45,7 @@ section .line1 {
 section .line2 {
   position: relative;
   bottom: 4.5px;
-  left: 8px;
+  left: -1px;
   top: -18px;
   width: 75px;
   border: 4px solid black;
@@ -88,41 +88,41 @@ section .signupbtn {
 }
 section .signinbtn:hover,
 section .signupbtn:hover {
-  transition: 0.7s;
-  background-color: black;
+  transition: 0.3s;
+  background-color: #ce5932;
 }
 
 section .sign-in {
-  animation: sign-in 0.7s ease-in forwards;
+  animation: sign-in 0.2s ease-in forwards;
   position: relative;
 }
 section .sign-up {
-  animation: sign-up 0.7s ease-in forwards;
+  animation: sign-up 0.2s ease-in forwards;
   position: relative;
 }
 
 @keyframes sign-in {
   0% {
-    left: 600px;
+    top: 100px;
     display: none;
   }
   70% {
     opacity: 0.3;
   }
   100% {
-    left: 0px;
+    top: 0px;
   }
 }
 @keyframes sign-up {
   0% {
-    right: 600px;
+    top: 100px;
     display: none;
   }
   70% {
     opacity: 0.3;
   }
   100% {
-    right: 0px;
+    top: 0px;
   }
 }
 
