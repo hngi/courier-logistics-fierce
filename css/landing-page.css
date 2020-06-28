@@ -5,8 +5,9 @@
 
 body {
   font-family: 'Lato', sans-serif !important;
+  width: 100%;
+  overflow-x: hidden;
 }
-
 
 p {
   color: #3a3939;
@@ -35,7 +36,6 @@ a {
   padding-right: 30px;
 }
 
-
 .navbar-nav .active {
   border-bottom: 4px solid var(--mainColor);
   width: 68px;
@@ -58,7 +58,6 @@ nav .btn_1 {
   font-size: 18px;
 }
 
-
 @media (max-width: 990px) {
   nav .btn_1 {
     color: black !important;
@@ -73,7 +72,6 @@ nav .btn_1 {
   padding-top: 100px !important;
 }
 
-
 .hero_padding {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -86,14 +84,12 @@ nav .btn_1 {
   font-size: 48px;
 }
 
-
 .hero .logo {
   margin-left: -16px;
   margin-top: 100px;
-  
 }
 
-#hero-img{
+#hero-img {
   position: absolute !important;
   right: 0;
   top: 0;
@@ -136,11 +132,7 @@ nav .btn_1 {
 }
 
 @media (max-width: 992px) {
-
-
- 
 }
-
 
 /* Hero end */
 
@@ -161,8 +153,6 @@ nav .btn_1 {
   padding: 15px 40px;
   font-size: 18px;
 }
-
-
 
 .btn-big a {
   color: var(--mainColor) !important;
@@ -209,8 +199,6 @@ nav .btn_1 {
   height: 90px;
 }
 
-
-
 .img-fluid-service {
   height: 70px !important;
   width: 70px !important;
@@ -243,8 +231,6 @@ nav .btn_1 {
   color: var(--mainColor) !important;
   font-weight: bold;
 }
-
-
 
 .shadow {
   background: var(--whiteColor);
@@ -347,8 +333,6 @@ nav .btn_1 {
   color: var(--mainColor);
 }
 
-
-
 @media (max-width: 768px) {
   .delivery h2,
   .companies h2 {
@@ -371,21 +355,17 @@ nav .btn_1 {
   border: none !important;
 }
 
-
-
 @media (max-width: 768px) {
   .testimonials .mobile_bottom {
     padding-bottom: 100px;
   }
 }
 
-
 /* Service delivery end */
 
 .companies_logo {
   position: relative;
 }
-
 
 /* Testimonials start */
 .testimonials_padding {
@@ -398,8 +378,6 @@ nav .btn_1 {
 .empty_space_2 {
   padding: 150px 0;
 }
-
-
 
 @media (max-width: 992px) {
   .empty_space_1 {
@@ -433,8 +411,6 @@ nav .btn_1 {
   padding: 0 40px;
   line-height: 2.5;
 }
-
-
 
 .packages p {
   font-size: 20px !important;
@@ -527,7 +503,6 @@ nav .btn_1 {
   height: 90px;
 }
 
-
 @media (max-width: 990px) {
   .companies_padding {
     padding-top: 0;
@@ -540,13 +515,13 @@ nav .btn_1 {
     top: 70%;
     right: 0%;
   }
-  
+
   .companies .bakery {
     position: absolute !important;
     top: 0;
     left: 20%;
   }
-  
+
   .companies .dribbble_shot {
     padding: 0 !important;
     position: absolute;
@@ -554,14 +529,14 @@ nav .btn_1 {
     left: 25%;
     height: 130px;
   }
-  
+
   .companies .mask {
     top: 5%;
     padding: 0 !important;
     height: 150px;
     right: 0%;
   }
-  
+
   .companies .grind {
     position: absolute;
     top: 10%;
@@ -569,34 +544,33 @@ nav .btn_1 {
     height: 100px;
     left: 5%;
   }
-  
+
   .companies .shield {
     position: absolute;
     height: 95px;
     bottom: 0;
     right: 30%;
   }
-  
+
   .companies .flower {
     position: absolute;
     bottom: 12%;
     right: 55%;
   }
-  
+
   .companies .joy {
     position: absolute;
     bottom: 20px;
     left: 5%;
     height: 70px;
   }
-  
+
   .companies .tree {
     position: absolute;
     top: 45%;
     left: 10%;
     height: 90px;
   }
-  
 }
 
 /*  Companies end */
@@ -609,5 +583,3 @@ ul {
 a {
   text-decoration: none !important;
 }
-
-
