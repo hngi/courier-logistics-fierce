@@ -10,7 +10,7 @@ body {
   padding: 0;
   background: #fff;
   font-family: 'Lato', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .banner {
@@ -143,47 +143,30 @@ body {
   .navbar-nav > li {
     padding-left: 0;
     padding-right: 0;
-    margin: 0 5px;
+    margin: 0 2px;
   }
 
   .nav-link {
-    font-size: 20px;
-    color: white;
+    font-size: 16px !important;
     transition: all 0.3s ease;
     border-bottom: 0px solid #fff;
     border-radius: 2px;
   }
 
   nav .btn_1 {
-    padding: 10px;
+    padding: 0.5rem 1rem !important;
   }
 }
 
 @media (max-width: 1024px) {
   .navbar-nav > li {
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 0 5px;
   }
 
   .nav-link {
     font-size: 1rem;
-  }
-
-  nav .btn_1 {
-    padding: 10px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .navbar-nav > li {
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0 5px;
-  }
-
-  .nav-link {
-    font-size: 0.8rem;
   }
 
   nav .btn_1 {

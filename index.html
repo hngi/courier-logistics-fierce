@@ -703,21 +703,8 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init()
-
-      // Mobile Toggler
-      const mobileNav = $('.mobile-nav')
-
-      $('.toggler').click(function (e) {
-        e.preventDefault()
-        if ($('.toggle').hasClass('active')) {
-          $('.toggle').removeClass('active')
-          mobileNav.removeClass('active')
-        } else {
-          $('.toggle').addClass('active')
-          mobileNav.addClass('active')
-        }
-      })
     </script>
+    <script src="./js/toggler.js"></script>
     <!-- Script end -->
   </body>
 </html>

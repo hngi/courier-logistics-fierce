@@ -24,7 +24,7 @@
 
 .navbar-nav li #nav-active:after {
   opacity: 1;
-  width: 100%;
+  width: 50%;
 }
 
 #nav-active {
