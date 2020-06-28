@@ -10,6 +10,7 @@ body {
   padding: 0;
   background: #fff;
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 .banner {
@@ -34,16 +35,12 @@ body {
   height: 100%;
 }
 
-
-
 .nav-link {
   font-size: 21px;
   color: black;
   transition: all 0.3s ease;
   border-radius: 2px;
 }
-
-
 
 .btn_1:hover {
   background: #fc4e17;
@@ -178,7 +175,7 @@ body {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .navbar-nav > li {
     padding-left: 0;
     padding-right: 0;
