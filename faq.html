@@ -28,55 +28,113 @@
 <body>
     <!-- Header start -->
     <header>
-      <div class="container-fluid my-4 px-o px-xl-5 mt-4 mb-4">
+      <div class="container my-4 px-0 mt-4 mb-4">
         <nav class="navbar navbar-expand-md">
-          <a class="navbar-brand pl-3" href="index.html">
-            <img src="./img/logo-pink.svg" class="img-fluid mr-2" alt="logo" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-          >
-            <span class="navbar-toggler-icon"><i class="fa fa-bars txt-light menu-bar"></i></span>
-          </button>
+          <div class="navbar-brand">
+            <div class="toggler">
+              <span class="toggle"></span>
+            </div>
+            <a href="./index.html">
+              <img src="./img/logo-pink.svg" class="img-fluid" alt="logo" />
+            </a>
+          </div>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto pr-lg-3">
-              <li class="nav-item  pl-1">
-                <a class="nav-link nav-link1" href="./index.html">Home</a>
+              <li class="nav-item pl-1">
+                <a class="nav-link nav-link1" href="#" id="nav-active">Home</a>
               </li>
-              <li class="nav-item  pl-1">
+              <li class="nav-item pl-1">
                 <a class="nav-link nav-link1" href="./about.html">About Us</a>
               </li>
-              <li class="nav-item  pl-1">
-                <a class="nav-link nav-link1" href="#">Services</a>
+              <li class="nav-item pl-1">
+                <a class="nav-link nav-link1" href="./services.html"
+                  >Services</a
+                >
               </li>
               <li class="nav-item dropdown pl-1">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   Package
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item p-3" href="./new-package.html">Dispatch New Package</a>
+                  <a class="dropdown-item p-3" href="./new-package.html"
+                    >Dispatch New Package</a
+                  >
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item p-3" href="./track-package-form.html">Track Package</a>
+                  <a class="dropdown-item p-3" href="./track-package-form.html"
+                    >Track Package</a
+                  >
                 </div>
               </li>
-              <li class="nav-item  pl-1">
+              <li class="nav-item pl-1">
                 <a class="nav-link nav-link1" href="./contact.html">Contact</a>
               </li>
-              <li class="nav-item  pl-1">
-                <a class="btn_1 btn_contact" href="./sign-in.html" style="color: black; border-color: #FE5C28;">Sign Up</a>
+              <li class="nav-item pl-1">
+                <a class="btn_1" style="color: #000; border-color: #ff5c28;" href="./sign-in.html">Sign Up</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
+
+      <!-- Mobile Nav -->
+      <div class="mobile-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item current">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Package
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item p-3" href="./new-package.html"
+                >Dispatch New Package</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item p-3" href="./track-package-form.html"
+                >Track Package</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="text-white nav-link" href="./sign-in.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn_1 text-white" href="./sign-in.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
     </header>
-      <!-- Header end -->
+    <!-- Header end -->
       <!-- Faq page starts here -->
-      <div class="container">
+      <div class="container faq">
       <div class="page-header text-center text-uppercase mx-auto">
         <h1 id="top-header">Frequently asked questions</h1>
 
@@ -209,8 +267,8 @@
 
       <!-- Footer start -->
       <footer class="footer footer_padding">
-        <div class="container-fluid pl-md-5">
-          <div class="row pl-md-4">
+        <div class="container">
+          <div class="row">
             <div class="col-md-6">
               <img
                 src="./img/logo-white.svg"
@@ -294,6 +352,7 @@
     crossorigin="anonymous"
   ></script>
   <!-- Script end -->
+  <script src="./js/toggler.js"></script>
     
 </body>
 </html>
