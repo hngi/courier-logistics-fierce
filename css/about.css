@@ -70,7 +70,7 @@ header .navbar-nav > li {
 .navbar-nav li .nav-link1:after {
   transition: all 0.3s ease;
   opacity: 0;
-  border-top: 3px solid #232323;
+  border-top: 3px solid #ff5c28;
   border-radius: 50px;
   content: '';
   display: block;
